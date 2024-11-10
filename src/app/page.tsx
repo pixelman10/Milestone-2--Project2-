@@ -6,8 +6,8 @@ import profilephoto from "../../public/Image/WhatsApp Image 2024-11-01 at 14.44.
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-white bg-gradient-animated">
-      <section className="home flex flex-col items-center text-center pt-16">
-        <div className="profile-container flex justify-center items-center h-40vh">
+      <section className="home flex flex-col items-center text-center pt-16 px-4 sm:px-6 md:px-8 lg:px-16">
+        <div className="profile-container flex justify-center items-center h-40vh md:h-48vh lg:h-60vh">
           <div className="profile-pic transition-transform duration-700 transform hover:scale-110 hover:rotate-3d rounded-full w-72 h-72 mb-8 border-4 border-[#0f3460] overflow-hidden shadow-xl shadow-cyan-500/50">
             <Image src={profilephoto} alt="Profile Photo" width={288} height={288} className="rounded-full"/>
           </div>
@@ -15,8 +15,8 @@ export default function Home() {
         <h1 className="text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ff8c94] to-[#ff5e5e] animate-gradient">
           Hi, It&apos;s <span className="text-[#ffafbd]">Muhammad Usman Khan</span>
         </h1>
-        <p className="typing-text text-2xl font-bold text-gray-200 mt-4 mb-6">I&apos;m a Full Stack Developer</p>
-        <p className="description text-xl font-bold text-gray-400 max-w-xl animate-slide-up">
+        <p className="typing-text text-2xl font-bold text-gray-200 mt-4 mb-6 sm:text-xl md:text-2xl lg:text-3xl">I&apos;m a Full Stack Developer</p>
+        <p className="description text-xl font-bold text-gray-400 max-w-xl animate-slide-up sm:text-lg md:text-xl lg:text-2xl">
           I am a web developer focused on crafting pixel-perfect, responsive designs that are both visually captivating and user-friendly.
         </p>
       </section>
