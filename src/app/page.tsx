@@ -13,9 +13,9 @@ export default function Home() {
           </div>
         </div>
         <h1 className="text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ff8c94] to-[#ff5e5e] animate-gradient">
-          Hi, It's <span className="text-[#ffafbd]">Muhammad Usman Khan</span>
+          Hi, It&apos;s <span className="text-[#ffafbd]">Muhammad Usman Khan</span>
         </h1>
-        <p className="typing-text text-2xl font-bold text-gray-200 mt-4 mb-6">I'm a Full Stack Developer</p>
+        <p className="typing-text text-2xl font-bold text-gray-200 mt-4 mb-6">I&apos;m a Full Stack Developer</p>
         <p className="description text-xl font-bold text-gray-400 max-w-xl animate-slide-up">
           I am a web developer focused on crafting pixel-perfect, responsive designs that are both visually captivating and user-friendly.
         </p>
